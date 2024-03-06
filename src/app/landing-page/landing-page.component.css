@@ -32,3 +32,17 @@
   font-size: 1.25rem;
   font-weight: 600;
 }
+
+.numbers-section {
+  background-color: #2B2D42;
+}
+
+.number-heading {
+  font-family: "Montserrat", sans-serif;
+  color: #EDF2F4;
+}
+
+.number-text {
+  font-family: "Montserrat", sans-serif;
+  color: #8D99AE;
+}
