@@ -14,3 +14,12 @@ img {
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
 }
+
+.badges {
+  margin-top: 0vw;
+  margin-bottom: 0.5vw;
+}
+
+.card-div {
+  padding-top: 1vw;
+}
