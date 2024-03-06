@@ -1,3 +1,26 @@
 .navbar {
   border-bottom: 1px solid black;
+  position: fixed; /* Make the navbar fixed */
+  top: 0; /* Align the navbar to the top of the viewport */
+  left: 0; /* Align the navbar to the left of the viewport */
+  width: 100%; /* Set the width of the navbar to 100% of the viewport width */
+  z-index: 1000; /* Set a higher z-index to ensure it appears above other content */
+  background-color: #ffffff; /* Optional: Set background color */
+  border-bottom: 1px solid #e5e7eb; /* Optional: Add border at the bottom */
+  transition: top 0.3s; /* Optional: Add smooth transition when the navbar changes position */
+}
+
+.navbar a {
+  padding: 1rem; /* Add padding to the links */
+  text-decoration: none; /* Remove underline from the links */
+  color: #000000; /* Set the color of the links */
+}
+
+.categories-button {
+  border-radius: 16px;
+}
+
+.categories-button:hover {
+  background-color: #EF233C;
+  color: white;
 }
