@@ -6,11 +6,12 @@ import {NavbarComponent} from "./navbar/navbar.component";
 import {LandingPageComponent} from "./landing-page/landing-page.component";
 import {SecondPageComponent} from "./second-page/second-page.component";
 import {CardsCarouselsComponent} from "./cards-carousels/cards-carousels.component";
+import {TestimonialsComponent} from "./testimonials/testimonials.component";
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, NavbarComponent, LandingPageComponent, SecondPageComponent, CardsCarouselsComponent],
+  imports: [RouterOutlet, NavbarComponent, LandingPageComponent, SecondPageComponent, CardsCarouselsComponent, TestimonialsComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
