@@ -1,3 +1,4 @@
+/* Hero section start */
 .landing-page {
   display: flex;
   justify-content: center;
@@ -32,7 +33,9 @@
   font-size: 1.25rem;
   font-weight: 600;
 }
+/* Hero section end */
 
+/* Number section start */
 .numbers-section {
   background-color: #2B2D42;
 }
@@ -49,4 +52,43 @@
 
 #learning-objectives {
   background-color: #EF233C; /* Change "green" to the desired color */
+}
+/* Number section end */
+
+/* About page section start */
+.text {
+  margin-bottom: 2vw;
+}
+/* About section end */
+
+/* Featured courses & categories cards start */
+.cards-grid {
+  margin: 0px;
+}
+
+.card {
+  border-radius: 16px;
+}
+
+img {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+}
+
+.badges {
+  margin-top: 0vw;
+  margin-bottom: 0.5vw;
+}
+
+.card-div {
+  padding-top: 1vw;
+}
+
+.cta-categories {
+  text-align: center;
+}
+/* Featured courses & categories cards end */
+
+.heading {
+  margin-top: 5vw;
 }
