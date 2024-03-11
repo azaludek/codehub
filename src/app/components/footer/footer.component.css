@@ -17,3 +17,8 @@
   font-size: 1.25rem;
   font-weight: 600;
 }
+
+.get-started-button:hover {
+  background-color: #D90429;
+  transform: scale(1.05);
+}

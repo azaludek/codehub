@@ -1,3 +1,9 @@
+/* All styling start */
+.heading {
+  margin-top: 5vw;
+}
+/* All styling end */
+
 /* Hero section start */
 .landing-page {
   display: flex;
@@ -33,6 +39,16 @@
   font-size: 1.25rem;
   font-weight: 600;
 }
+
+.get-started-button:hover {
+  background-color: #D90429;
+  transform: scale(1.05); /* Scale the button slightly on hover */
+}
+
+.learn-more-button:hover {
+  background-color: #1E1F2A;
+  transform: scale(1.05);
+}
 /* Hero section end */
 
 /* Number section start */
@@ -51,7 +67,7 @@
 }
 
 #learning-objectives {
-  background-color: #EF233C; /* Change "green" to the desired color */
+  background-color: #EF233C;
 }
 /* Number section end */
 
@@ -70,7 +86,7 @@
   border-radius: 16px;
 }
 
-img {
+.card-course-image {
   border-top-left-radius: 16px;
   border-top-right-radius: 16px;
 }
@@ -88,7 +104,3 @@ img {
   text-align: center;
 }
 /* Featured courses & categories cards end */
-
-.heading {
-  margin-top: 5vw;
-}
