@@ -42,12 +42,14 @@
 
 .get-started-button:hover {
   background-color: #D90429;
-  transform: scale(1.05); /* Scale the button slightly on hover */
+  transform: scale(1.01); /* Scale the button slightly on hover */
+  transition: ease-in-out 0.2s; /* Add a smooth transition */
 }
 
 .learn-more-button:hover {
   background-color: #1E1F2A;
-  transform: scale(1.05);
+  transform: scale(1.01);
+  transition: ease-in-out 0.2s;
 }
 /* Hero section end */
 

@@ -20,5 +20,6 @@
 
 .get-started-button:hover {
   background-color: #D90429;
-  transform: scale(1.05);
+  transform: scale(1.01);
+  transition: ease-in-out 0.2s;
 }
