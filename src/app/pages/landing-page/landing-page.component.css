@@ -106,3 +106,7 @@
   text-align: center;
 }
 /* Featured courses & categories cards end */
+
+#categories {
+  scroll-margin-top: 10vw; /* Adjust the value as needed */
+}
