@@ -20,7 +20,6 @@
 }
 
 .landing-text {
-  font-family: "Montserrat", sans-serif;
   font-size: 1.25rem;
 }
 
@@ -37,14 +36,6 @@
   font-size: 1.25rem;
   font-weight: 600;
 }
-
-.get-started-button:hover {
-  transition: ease-in-out 0.2s; /* Add a smooth transition */
-}
-
-.learn-more-button:hover {
-  transition: ease-in-out 0.2s;
-}
 /* Hero section end */
 
 /* Number section start */
@@ -53,12 +44,10 @@
 }
 
 .number-heading {
-  font-family: "Montserrat", sans-serif;
   color: #EDF2F4;
 }
 
 .number-text {
-  font-family: "Montserrat", sans-serif;
   color: #8D99AE;
 }
 
@@ -111,4 +100,3 @@
   font-size: 0.85rem;
   font-weight: 600;
 }
-
