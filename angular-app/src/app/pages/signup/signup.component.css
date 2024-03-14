@@ -2,17 +2,6 @@
   padding-top: 5vw;
 }
 
-.sign-up-button {
-  background-color: #EF233C;
-  color: #FFFFFF;
-}
-
-.sign-up-button:hover {
-  background-color: #D90429;
-  transform: scale(1.01); /* Scale the button slightly on hover */
-  transition: ease-in-out 0.2s; /* Add a smooth transition */
-}
-
 .create-account-section {
   /* Your existing styles */
   margin-top: 20px; /* Default margin */
@@ -21,4 +10,11 @@
   @media screen and (max-width: 700px) {
     margin-top: 30vw; /* Increase margin on smaller screens */
   }
+}
+
+.sign-up-button {
+  background-color: #2B2D42;
+  color: #FFFFFF;
+  font-size: 1.25rem;
+  font-weight: 600;
 }

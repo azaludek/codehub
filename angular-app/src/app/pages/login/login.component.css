@@ -3,14 +3,10 @@
 }
 
 .log-in-button {
-  background-color: #EF233C;
+  background-color: #2B2D42;
   color: #FFFFFF;
-}
-
-.log-in-button:hover {
-  background-color: #D90429;
-  transform: scale(1.01); /* Scale the button slightly on hover */
-  transition: ease-in-out 0.2s; /* Add a smooth transition */
+  font-size: 1.25rem;
+  font-weight: 600;
 }
 
 .sign-in-account-section {
