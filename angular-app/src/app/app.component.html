@@ -8,9 +8,11 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
 <app-navbar></app-navbar>
-<router-outlet />
-<app-footer></app-footer>
+<router-outlet>
 
+</router-outlet>
+  <!-- Render the navbar only if the current route is not 'shopping-cart' -->
+  <app-footer *ngIf="!isShoppingCartRoute"></app-footer>
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * The content above * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * * -->
