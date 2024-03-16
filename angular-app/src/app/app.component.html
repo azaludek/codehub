@@ -7,12 +7,14 @@
 <!-- * * * * * * * to get started with your project! * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
-<app-navbar></app-navbar>
+<app-navbar *ngIf="!isNotFoundRoute"></app-navbar>
 <router-outlet>
 
 </router-outlet>
-  <!-- Render the navbar only if the current route is not 'shopping-cart' -->
-  <app-footer *ngIf="!isShoppingCartRoute"></app-footer>
+<!-- Render the navbar only if the current route is not 'shopping-cart' -->
+<app-footer *ngIf="!isShoppingCartRoute && !isNotFoundRoute"></app-footer>
+
+
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * The content above * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * is only a placeholder * * * * * * * * * * * -->

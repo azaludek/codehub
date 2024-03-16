@@ -17,19 +17,25 @@ import {NgIf} from "@angular/common";
 })
 
 export class AppComponent {
-    isShoppingCartRoute: boolean = false;
+  isShoppingCartRoute: boolean = false;
+  isNotFoundRoute: boolean = false;
+
   constructor(private router: Router) {
     // Subscribe to router events to track route changes
     this.router.events.subscribe((event) => {
       if (event instanceof NavigationEnd) {
-        // Check if the current route is 'shopping-cart'
+        // Check if the current route is '/shopping-cart'
         this.isShoppingCartRoute = event.url === '/shopping-cart';
+
+        // Check if the current route is '/not-found'
+        this.isNotFoundRoute = event.url === '/not-found';
       }
     });
   }
-  title = 'codehub';
 
-    ngOnInit(): void {
+  ngOnInit(): void {
+    // Initialize any necessary components or libraries
+    // For example, you can call a function to initialize Flowbite here
     initFlowbite();
   }
 }

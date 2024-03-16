@@ -1,0 +1,15 @@
+.sign-up-button {
+  background-color: #2B2D42;
+  color: #FFFFFF;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.not-found {
+  margin-top: 16vw;
+
+  /* Media query for mobile devices */
+  @media screen and (max-width: 700px) {
+    margin-top: 50vw; /* Increase margin on smaller screens */
+  }
+}
