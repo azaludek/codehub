@@ -1,0 +1,16 @@
+.user-card {
+  margin-top: 20vw;
+
+  /* Media query for mobile devices */
+  @media screen and (max-width: 700px) {
+    margin-top: 50vw; /* Increase margin on smaller screens */
+  }
+}
+
+.name {
+  font-size: 1vw;
+}
+
+.email {
+  font-size: 0.8vw;
+}
