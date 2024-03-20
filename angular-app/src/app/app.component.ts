@@ -21,6 +21,7 @@ export class AppComponent {
   isNotMyProfileRoute: boolean = false;
   isNotSignUpRoute: boolean = false;
   isNotFoundRoute: boolean = false;
+  isNotAdminRoute: boolean = false;
 
   constructor(private router: Router) {
     // Subscribe to router events to track route changes
@@ -29,6 +30,7 @@ export class AppComponent {
         // Check if the current route is '/shopping-cart'
         this.isShoppingCartRoute = event.url === '/shopping-cart';
         this.isNotMyProfileRoute = event.url === '/my-profile';
+        this.isNotAdminRoute = event.url === '/admin-panel';
         this.isNotSignUpRoute = event.url === '/signup';
         // Check if the current route is '/not-found'
         this.isNotFoundRoute = event.url === '/not-found';

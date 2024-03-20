@@ -7,6 +7,7 @@ import {CoursesComponent} from "./pages/courses/courses.component";
 import {NotFoundComponent} from "./pages/not-found/not-found.component";
 import {UserProfileComponent} from "./pages/user-profile/user-profile.component";
 import {CoursePageComponent} from "./pages/course-page/course-page.component";
+import {AdminPanelComponent} from "./pages/admin-panel/admin-panel.component";
 
 // Define your routes
 export const routes: Routes = [
@@ -16,6 +17,7 @@ export const routes: Routes = [
   { path: 'courses', component: CoursesComponent },
   { path: 'my-profile', component: UserProfileComponent },
   { path: 'course-page', component: CoursePageComponent },
+  { path: 'admin-panel', component: AdminPanelComponent },
   { path: '**', redirectTo: 'not-found' }, // Wildcard route for 404 Not Found
   { path: 'not-found', component: NotFoundComponent } // Route for NotFoundComponent
 ];
