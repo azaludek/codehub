@@ -18,8 +18,9 @@ import {NgIf} from "@angular/common";
 
 export class AppComponent {
   isShoppingCartRoute: boolean = false;
-  isNotFoundRoute: boolean = false;
   isNotMyProfileRoute: boolean = false;
+  isNotSignUpRoute: boolean = false;
+  isNotFoundRoute: boolean = false;
 
   constructor(private router: Router) {
     // Subscribe to router events to track route changes
@@ -28,6 +29,7 @@ export class AppComponent {
         // Check if the current route is '/shopping-cart'
         this.isShoppingCartRoute = event.url === '/shopping-cart';
         this.isNotMyProfileRoute = event.url === '/my-profile';
+        this.isNotSignUpRoute = event.url === '/signup';
         // Check if the current route is '/not-found'
         this.isNotFoundRoute = event.url === '/not-found';
       }

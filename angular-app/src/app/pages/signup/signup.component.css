@@ -1,10 +1,6 @@
-.wasd {
-  padding-top: 5vw;
-}
-
 .create-account-section {
   /* Your existing styles */
-  margin-top: 20px; /* Default margin */
+  margin-top: 3vw; /* Default margin */
 
   /* Media query for mobile devices */
   @media screen and (max-width: 700px) {

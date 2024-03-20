@@ -6,6 +6,98 @@
 
 /* Hero section start */
 .landing-page {
+  margin-top: 5vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 102vh;
+
+  /* Media query for mobile devices */
+  @media screen and (max-width: 700px) {
+    margin-top: 25vw; /* Increase margin on smaller screens */
+  }
+}
+
+.landing-heading {
+  font-family: "Poppins", sans-serif;
+  font-size: 3.75rem;
+  color: #2B2D42;
+  font-weight: 700;
+}
+
+.landing-text {
+  font-size: 1.25rem;
+}
+
+.get-started-button {
+  background-color: #EF233C;
+  color: #FFFFFF;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.learn-more-button {
+  background-color: #2B2D42;
+  color: #FFFFFF;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+/* Hero section end */
+
+/* Number section start */
+.numbers-section {
+  background-color: white;
+}
+
+.number-heading {
+  color: #EDF2F4;
+}
+
+h1 {
+  color: #2B2D42;
+}
+
+.number-text {
+  color: #8D99AE;
+}
+
+#learning-objectives {
+  background-color: #EF233C;
+}
+/* Number section end */
+
+/* About page section start */
+.text {
+  margin-bottom: 2vw;
+}
+/* About section end */
+
+
+
+.new {
+  background-color: #EF233C;
+}
+
+#learn-more {
+    scroll-margin-top: 5vw; /* Adjust this value according to your layout */
+}
+
+#categories {
+    scroll-margin-top: 10vw; /* Adjust this value according to your layout */
+}
+
+.cta-categories {
+  text-align: center;
+}
+
+/* All styling start */
+.heading {
+  margin-top: 5vw;
+}
+/* All styling end */
+
+/* Hero section start */
+.landing-page {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,24 +129,6 @@
   font-weight: 600;
 }
 /* Hero section end */
-
-/* Number section start */
-.numbers-section {
-  background-color: #2B2D42;
-}
-
-.number-heading {
-  color: #EDF2F4;
-}
-
-.number-text {
-  color: #8D99AE;
-}
-
-#learning-objectives {
-  background-color: #EF233C;
-}
-/* Number section end */
 
 /* About page section start */
 .text {
@@ -91,7 +165,15 @@
 /* Featured courses & categories cards end */
 
 #categories {
-  scroll-margin-top: 10vw; /* Adjust the value as needed */
+  scroll-margin-top: 9vw; /* Adjust the value as needed */
+}
+
+#testimonials {
+  scroll-margin-top: 4vw; /* Adjust the value as needed */
+}
+
+#featured-courses {
+  scroll-margin-top: 4vw; /* Adjust the value as needed */
 }
 
 .course-button {

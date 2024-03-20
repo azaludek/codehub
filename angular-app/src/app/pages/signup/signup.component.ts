@@ -12,4 +12,7 @@ import {FormsModule} from "@angular/forms";
 })
 export class SignupComponent {
 
+  onSubmit() {
+
+  }
 }

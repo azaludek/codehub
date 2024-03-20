@@ -1,6 +1,12 @@
 .courses {
   margin-top: 10vw;
 }
+    /* Media query for smaller devices */
+    @media screen and (max-width: 767px) {
+      .courses {
+        margin-top: 25vw;
+      }
+    }
 
 .drop-btn {
   background-color: #EF233C;

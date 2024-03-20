@@ -5,11 +5,19 @@
               <h1 class="text-xl font-bold leading-tight tracking-tight text-gray-900 md:text-2xl">
                   Create your account
               </h1>
-              <form id="#signupForm" class="space-y-4 md:space-y-6" action="#">
+              <form id="signupForm" class="space-y-4 md:space-y-6" action="http://localhost:4000/signup" method="POST" (ngSubmit)="onSubmit()">
                 <!-- Your input fields -->
+                <div>
+                    <label for="name" class="block mb-2 text-sm font-medium text-gray-900">Your name</label>
+                    <input type="text" name="name" id="name" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5" placeholder="Your Name" required>
+                </div>
                 <div>
                     <label for="email" class="block mb-2 text-sm font-medium text-gray-900">Your email</label>
                     <input type="email" name="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5" placeholder="name@company.com" required="">
+                </div>
+                <div>
+                    <label for="message" class="block mb-2 text-sm font-medium text-gray-900">About you</label>
+                    <textarea name="message" id="message" rows="4" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-primary-600 focus:border-primary-600 block w-full p-2.5" placeholder="Write your bio" required></textarea>
                 </div>
                 <div>
                     <label for="password" class="block mb-2 text-sm font-medium text-gray-900">Password</label>
@@ -25,7 +33,7 @@
                 <p class="text-sm font-light text-gray-500">
                     Already have an account? <a href="/login" class="font-medium text-primary-600 hover:underline">Log in here</a>
                 </p>
-              </form>
+            </form>
           </div>
       </div>
   </div>
