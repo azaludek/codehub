@@ -1,5 +1,5 @@
 .courses {
-  margin-top: 10vw;
+  margin-top: 5vw;
 }
     /* Media query for smaller devices */
     @media screen and (max-width: 767px) {
